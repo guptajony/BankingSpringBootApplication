@@ -1,16 +1,16 @@
 [all:children]
-#aws
+aws
 azure
 
-#[aws]
-#3.89.248.140
+[aws]
+3.89.248.140
 
-#[aws:vars]
-#ansible_ssh_user=ubuntu
-#ansible_ssh_private_key_file="{{ key_pair_path }}"
+[aws:vars]
+ansible_ssh_user=ubuntu
+ansible_ssh_private_key_file="{{ key_pair_path }}"
 
 [azure]
-20.81.46.182
+20.121.68.199
 
 [azure:vars]
 ansible_ssh_user=devops
